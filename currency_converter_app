@@ -1,0 +1,16 @@
+Currency Converter Application
+run:
+
+    pip install flask requests
+    python currency_converter_app.py
+
+Open http://127.0.0.1:5000 in your browser.
+
+Features:
+- Simple, clean UI (Bootstrap CDN)
+- Live exchange rates from exchangerate.host (free, no API key required)
+- Fallback static rates if the online API fails
+- Input validation and helpful error messages
+- Example supported currencies list
+
+Note: This is for local use only. Don't expose to the public without proper security.
